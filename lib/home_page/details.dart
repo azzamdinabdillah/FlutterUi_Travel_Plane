@@ -17,7 +17,7 @@ class DetailsPage extends StatelessWidget {
         decoration: BoxDecoration(
           image: DecorationImage(
             fit: BoxFit.cover,
-            image: AssetImage('assets/image/paris-1.jpg'),
+            image: AssetImage('assets/image/yogya-1.jpg'),
           ),
         ),
         child: Container(
@@ -132,13 +132,49 @@ class DetailsPage extends StatelessWidget {
 
               // ticket
               TicketBody(),
+              Container(
+                // width: 20,
+                // height: 12,
+                alignment: Alignment.center,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(40),
+                ),
+                margin: EdgeInsets.symmetric(horizontal: 60),
+                // padding: EdgeInsets.symmetric(horizontal: 5),
+                child: Text(
+                  '-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: Colors.black.withOpacity(0.6),
+                  ),
+                ),
+              ),
               TicketMoney(),
 
               SizedBox(
-                height: 30,
+                height: 20,
               ),
 
               TicketBody(),
+              Container(
+                // width: 20,
+                // height: 12,
+                alignment: Alignment.center,
+                decoration: BoxDecoration(
+                  color: Colors.white,
+                  borderRadius: BorderRadius.circular(40),
+                ),
+                margin: EdgeInsets.symmetric(horizontal: 60),
+                // padding: EdgeInsets.symmetric(horizontal: 5),
+                child: Text(
+                  '-- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- -- --',
+                  style: TextStyle(
+                    fontWeight: FontWeight.bold,
+                    color: Colors.black.withOpacity(0.6),
+                  ),
+                ),
+              ),
               TicketMoney(),
 
               SizedBox(
